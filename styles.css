@@ -1,0 +1,210 @@
+/* #region: normalize */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.page__body {
+  width: 595px;
+  margin: 20px auto;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 150%;
+  color: #485268;
+  background-color: #e5e5e5;
+}
+
+/* #endregion */
+
+/* #region: header */
+
+.header {
+  display: flex;
+  gap: 50px;
+  padding: 32px 40px 24px;
+
+  color: #fff;
+  background-color: #e25544;
+}
+
+.header__name {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.header__job {
+  margin-bottom: 8px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.header__pic {
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+}
+
+/* #endregion */
+
+/* #region: main */
+
+.main {
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+/* #endregion */
+
+/* #region: contacts */
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts__link {
+  color: #485268;
+  text-decoration: none;
+}
+
+/* #endregion */
+
+/* #region: info */
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+
+  border-top: 1px solid #dee2ed;
+}
+
+.info__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #e25544;
+}
+
+.info__content {
+  width: 360px;
+}
+
+/* #endregion */
+
+/* #region: edu */
+
+.edu {
+  margin-top: 24px;
+  padding-left: 8px;
+  border-left: 1px dashed #dee2ed;
+}
+
+.edu:first-child {
+  margin-top: 0;
+}
+
+.edu__uni {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.edu__degree {
+  margin-bottom: 8px;
+}
+
+/* #endregion */
+
+/* #region: project */
+
+.project {
+  margin-top: 24px;
+  padding-left: 8px;
+  border-left: 1px dashed #dee2ed;
+}
+
+.project:first-child {
+  margin-top: 0;
+}
+
+.project__title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.project__desc {
+  margin-bottom: 8px;
+}
+
+.project__link {
+  color: inherit;
+}
+
+/* #endregion */
+
+/* #region: skills */
+
+.skills {
+  display: flex;
+}
+
+.skills__list {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 8px;
+  border-left: 1px dashed #dee2ed;
+  list-style: none;
+}
+
+.skills__item {
+  margin-top: 8px;
+}
+
+.skills__item:first-child {
+  margin-top: 0;
+}
+
+/* #endregion */
+
+/* #region: tools */
+
+.tools {
+  display: flex;
+}
+
+.tools__list {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 8px;
+  border-left: 1px dashed #dee2ed;
+  list-style: none;
+}
+
+.tools__item {
+  margin-top: 8px;
+}
+
+.tools__item:first-child {
+  margin-top: 0;
+}
+
+/* #endregion */
