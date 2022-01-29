@@ -52,10 +52,16 @@ li {
   text-transform: uppercase;
 }
 
+.header__pic-container {
+  display: flex;
+  align-items: center;
+}
+
 .header__pic {
   height: 114px;
   width: 114px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /* #endregion */
